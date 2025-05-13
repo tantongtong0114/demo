@@ -15,7 +15,7 @@ app.post('/user', (req, res) => {
     res.send('<h1>已成功解析POST请求参数</h1>');
 });
 
-app.listen(3000, () => {
+app.listen(8000, () => {
     console.log('服务器已启动....');
 
 });
